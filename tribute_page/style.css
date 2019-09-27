@@ -1,0 +1,33 @@
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+h2 {
+  text-align:center;
+}
+footer{
+  text-align: right;
+  font-style: italic;
+  color: #aaaaaa;
+}
+a{
+  color:black;
+}
+#title{
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+}
+#image{
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+}
+#img-caption{
+  text-align: center;
+  padding: 1em;
+  color: #aaaaaa;
+}
+#tribute-info{
+  margin: 2em 7em;
+  text-align: justify;
+}
