@@ -1,0 +1,91 @@
+body{
+  font-family: 'Assistant', sans-serif;
+}
+header{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #68ba41;
+  position:sticky;
+  top: 0;
+}
+h1{
+  font-size: 1em;
+  padding: 0em 0.5em 0em 0.5em;
+}
+.nav-link{
+  margin: 2em;
+  padding: 0.5em;
+  text-decoration: none;
+  color: white;
+}
+iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 700px){
+  header{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+  }
+  nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .nav-link{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+}
+h2{
+  text-align: center;
+}
+.logo{
+  display:flex;
+  font-family: 'Courgette', cursive;
+  align-items: center;
+}
+
+.nav-link:hover{
+  background-color: #afbc4f;
+}
+#header-img{
+  width: 2rem;
+  height: 2rem;
+}
+main{
+  width: 50%;
+  margin: auto;
+  text-align: justify;
+}
+
+li{
+  font-weight: bold;
+  list-style-image: url(http://i66.tinypic.com/154bnuc.png);  
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+input, textarea{
+  border: inset;
+  border-color: #c5973c;
+  border-radius: 0.5rem;
+  margin: 0.8rem;
+  padding: 0.3rem;  
+}
+#submit{
+  width: 10rem;
+  margin: auto;
+  font-family: 'Assistant', sans-serif;
+  font-size: 1rem;
+  background-color: #68ba41;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+}
