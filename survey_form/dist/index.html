@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Developer Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald" rel="stylesheet">
+<title>Developer Survey Form</title>
+</head>
+<body>
+  <header>
+    <h1 id="title">Why do you want to be a developer?</h1>
+  </header>
+  
+  <main>
+    <p id="description">This is a short survery to find out your motivation for being a developer</p>
+    
+    <form id="survey-form">
+      <label for="name" id="name-label">What's your name?</label>
+      <input type="text" class="input-text" id="name" name="" placeholder="Enter your name" required >
+      
+      <label for="email" id="email-label">What's your email?</label>
+      <input type="email" id="email" class="input-text" placeholder="Enter your email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+      
+      <label>What's your gender?</label>
+      <div class="container">
+      <input id="female" type="radio" name="gender" value="female">
+    <label for="female">Female</label>
+      <input id="male" type="radio" name="gender" value="male">
+    <label for="male">Male</label>
+      <input id="undefined" type="radio" name="gender" value="undefined">
+    <label for="undefined">Undefined</label>
+      </div>
+
+      <label for="number" id="number-label">How many years of experience do you have?</label>
+      <input type="number" id="number" class="input-text" placeholder="Years of experience" min="0" max="50">
+      
+      <label>What type of developer do you want to be?</label>
+      <select id="dropdown">
+        <option selected disabled>Select one</option>
+        <option value="Front-end">Front End</option>
+        <option value="Back-end">Back End</option>
+        <option value="Full-stack">Full Stack</option>
+      </select>
+      
+      <label>What programming languages would you like to learn?</label>
+      <div>
+      <input type="checkbox" name="language" value="javascript">JavaScript 
+      <input type="checkbox" name="language" value="php">PHP 
+      <input type="checkbox" name="language" value="ruby">Ruby 
+      <input type="checkbox" name="language" value="python">Python
+      </div>
+      
+      <label>Describe why you want to become a developer:</label>
+      <textarea class="input-text" required></textarea>
+      
+      <input type="submit" value="Submit" id="submit">
+    </form>
+  </main>
+</body>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
